@@ -1,0 +1,48 @@
+.board
+{
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
+    height: 500px;
+    width: 500px;
+    background-color: lightgray;
+}
+
+.hidden
+{
+    display: block;
+    height: 45px;
+    width: 45px;
+    margin: auto;
+    background-color: grey;
+}
+
+.mine
+{    
+    display: block;
+    height: 45px;
+    width: 45px;
+    margin: auto;
+    background-color: red;
+}
+
+.flag
+{   
+    display: block;
+    height: 45px;
+    width: 45px;
+    margin: auto;
+    background-color: yellow;
+}
+
+.number
+{ 
+    display: block;
+    height: 45px;
+    width: 45px;
+    font-size: x-large;
+    margin: auto;
+    text-align: center;
+    line-height: 45px;
+    background-color: gainsboro;
+}
